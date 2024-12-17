@@ -7,9 +7,13 @@ let globalMap = {};
 const datapackId = Deno.args[0].replace(".tsv", "");
 let getNamespacedPath = (datapackId, namespacedId) => {
 	let splitter = namespacedId.indexOf(":");
-	return `./${datapackId}/data/${namespacedId.substring(0, splitter)}/tags/items/${namespacedId.substring(splitter + 1)}.json`;
+	return `./src/${datapackId}/data/${namespacedId.substring(0, splitter)}/tags/items/${namespacedId.substring(splitter + 1)}.json`;
 };
-let getGeneratedData = (values) => {
+let getGeneratedData = (data) => {
+	let values = [];
+	for (let value of data) {
+		values.push(value);
+	};
 	return JSON.stringify({values});
 };
 
@@ -39,5 +43,5 @@ for await (let line of TextReader.line((await Deno.open(`./conf/item_categories/
 // Write all of the maps
 for (let category in globalMap) {
 	console.debug(`Writing "${getNamespacedPath(datapackId, category)}"...`);
-	await Deno.writeTextFile(getNamespacedPath(datapackId, category), getGeneratedData(globalMap[category]), {createNew: true});
+	await Deno.writeTextFile(getNamespacedPath(datapackId, category), getGeneratedData(globalMap[category]));
 };
