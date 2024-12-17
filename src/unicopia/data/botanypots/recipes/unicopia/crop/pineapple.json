@@ -1,0 +1,26 @@
+{
+	"type": "botanypots:crop",
+	"seed": {
+		"item": "unicopia:pineapple_crown"
+	},
+	"categories": ["dirt"],
+	"growthTicks": 24000,
+	"display": {
+		"type": "botanypots:aging",
+		"block": "unicopia:pineapple",
+		"properties": {
+			"half": "top"
+		}
+	},
+	"drops": [{
+		"chance": 1.00,
+		"output": {
+			"item": "unicopia:pineapple"
+		},
+	}, {
+		"chance": 0.10,
+		"output": {
+			"item": "unicopia:pineapple"
+		}
+	}]
+}
