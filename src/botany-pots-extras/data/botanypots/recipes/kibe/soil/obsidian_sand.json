@@ -1,0 +1,11 @@
+{
+	"type": "botanypots:soil",
+	"input": {
+		"item": "kibe:obsidian_sand"
+	},
+	"display": {
+		"block": "kibe:obsidian_sand"
+	},
+	"categories": ["sand", "glass", "obsidian"],
+	"growthmodifier": 1.2
+}

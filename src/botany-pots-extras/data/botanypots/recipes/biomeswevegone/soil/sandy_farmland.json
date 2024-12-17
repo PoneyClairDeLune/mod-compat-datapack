@@ -1,0 +1,11 @@
+{
+	"type": "botanypots:soil",
+	"input": {
+		"item": "biomeswevegone:sandy_farmland"
+	},
+	"display": {
+		"block": "biomeswevegone:sandy_farmland"
+	},
+	"categories": ["sand", "dirt"],
+	"growthmodifier": 1.05
+}

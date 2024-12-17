@@ -1,0 +1,11 @@
+{
+	"type": "botanypots:soil",
+	"input": {
+		"item": "biomeswevegone:black_sand"
+	},
+	"display": {
+		"block": "biomeswevegone:black_sand"
+	},
+	"categories": ["sand"],
+	"growthmodifier": 1
+}

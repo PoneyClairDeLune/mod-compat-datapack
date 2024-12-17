@@ -1,0 +1,11 @@
+{
+	"type": "botanypots:soil",
+	"input": {
+		"item": "biomeswevegone:windswept_sand"
+	},
+	"display": {
+		"block": "biomeswevegone:windswept_sand"
+	},
+	"categories": ["sand"],
+	"growthmodifier": 1
+}

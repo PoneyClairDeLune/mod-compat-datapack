@@ -1,0 +1,33 @@
+{
+	"type": "botanypots:crop",
+	"seed": {
+		"item": "unicopia:zapling"
+	},
+	"categories": ["dirt"],
+	"growthTicks": 24000,
+	"display": {
+		"block": "unicopia:zapling"
+	},
+	"drops": [{
+		"chance": 1.00,
+		"output": {
+			"item": "unicopia:zap_log"
+		},
+		"minRolls": 2,
+		"maxRolls": 4
+	}, {
+		"chance": 0.10,
+		"output": {
+			"item": "minecraft:stick"
+		},
+		"minRolls": 1,
+		"maxRolls": 2
+	}, {
+		"chance": 1.00,
+		"output": {
+			"item": "unicopia:zap_apple"
+		},
+		"minRolls": 1,
+		"maxRolls": 2
+	}]
+}

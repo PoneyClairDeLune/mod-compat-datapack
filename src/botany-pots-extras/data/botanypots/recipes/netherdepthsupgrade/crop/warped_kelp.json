@@ -1,0 +1,20 @@
+{
+	"type": "botanypots:crop",
+	"seed": {
+		"item": "netherdepthsupgrade:warped_kelp"
+	},
+	"categories": ["lava"],
+	"growthTicks": 1000,
+	"display": {
+		"block": "netherdepthsupgrade:warped_kelp",
+		"properties": {
+			"age": 24
+		}
+	},
+	"drops": [{
+		"chance": 1.00,
+		"output": {
+			"item": "netherdepthsupgrade:warped_kelp"
+		}
+	}]
+}

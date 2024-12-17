@@ -1,0 +1,11 @@
+{
+	"type": "botanypots:soil",
+	"input": {
+		"item": "biomeswevegone:cracked_sand"
+	},
+	"display": {
+		"block": "biomeswevegone:cracked_sand"
+	},
+	"categories": ["sand"],
+	"growthmodifier": 1
+}

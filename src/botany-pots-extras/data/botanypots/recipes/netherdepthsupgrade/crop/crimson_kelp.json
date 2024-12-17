@@ -1,0 +1,20 @@
+{
+	"type": "botanypots:crop",
+	"seed": {
+		"item": "netherdepthsupgrade:crimson_kelp"
+	},
+	"categories": ["lava"],
+	"growthTicks": 1000,
+	"display": {
+		"block": "netherdepthsupgrade:crimson_kelp",
+		"properties": {
+			"age": 24
+		}
+	},
+	"drops": [{
+		"chance": 1.00,
+		"output": {
+			"item": "netherdepthsupgrade:crimson_kelp"
+		}
+	}]
+}

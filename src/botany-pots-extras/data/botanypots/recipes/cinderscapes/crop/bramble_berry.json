@@ -1,0 +1,38 @@
+{
+	"type": "botanypots:crop",
+	"seed": {
+		"item": "cinderscapes:bramble_berries"
+	},
+	"categories": ["nether", "netherrack"],
+	"growthTicks": 1200,
+	"display": {
+		"type": "botanypots:transitional",
+		"phases": [{
+			"block": "cinderscapes:bramble_berry_bush",
+			"properties": {
+				"age": 0
+			}
+		}, {
+			"block": "cinderscapes:bramble_berry_bush",
+			"properties": {
+				"age": 1
+			}
+		}, {
+			"block": "cinderscapes:bramble_berry_bush",
+			"properties": {
+				"age": 2
+			}
+		}]
+	},
+	"drops": [{
+		"chance": 1.00,
+		"output": {
+			"item": "cinderscapes:bramble_berries"
+		}
+	}, {
+		"chance": 0.05,
+		"output": {
+			"item": "cinderscapes:bramble_berries"
+		}
+	}]
+}
