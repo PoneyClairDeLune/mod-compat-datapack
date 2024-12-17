@@ -1,12 +1,12 @@
 {
 	"type": "botanypots:crop",
 	"seed": {
-		"item": "unicopia:green_apple_sapling"
+		"item": "unicopia:palm_sapling"
 	},
 	"categories": ["sand"],
 	"growthTicks": 2400,
 	"display": {
-		"block": "unicopia:green_apple_sapling"
+		"block": "unicopia:palm_sapling"
 	},
 	"drops": [{
 		"chance": 1.00,

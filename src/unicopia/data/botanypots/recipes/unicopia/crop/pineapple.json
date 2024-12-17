@@ -7,16 +7,13 @@
 	"growthTicks": 24000,
 	"display": {
 		"type": "botanypots:aging",
-		"block": "unicopia:pineapple",
-		"properties": {
-			"half": "top"
-		}
+		"block": "unicopia:pineapple"
 	},
 	"drops": [{
 		"chance": 1.00,
 		"output": {
 			"item": "unicopia:pineapple"
-		},
+		}
 	}, {
 		"chance": 0.10,
 		"output": {
