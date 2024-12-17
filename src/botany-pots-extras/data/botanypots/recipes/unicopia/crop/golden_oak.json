@@ -4,7 +4,7 @@
 		"item": "unicopia:golden_oak_sapling"
 	},
 	"categories": ["dirt"],
-	"growthTicks": 24000,
+	"growthTicks": 96000,
 	"display": {
 		"block": "unicopia:golden_oak_sapling"
 	},
@@ -29,5 +29,10 @@
 		},
 		"minRolls": 1,
 		"maxRolls": 2
+	}, {
+		"chance": 0.01,
+		"output": {
+			"item": "minecraft:enchanted_golden_apple"
+		}
 	}]
 }
