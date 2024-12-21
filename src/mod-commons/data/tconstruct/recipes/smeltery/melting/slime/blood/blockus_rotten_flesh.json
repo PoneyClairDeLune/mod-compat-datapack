@@ -1,0 +1,12 @@
+{
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"item": "blockus:rotten_flesh_block"
+	},
+	"result": {
+		"amount": 36450,
+		"fluid": "tconstruct:blood"
+	},
+	"temperature": 36,
+	"time": 30
+}

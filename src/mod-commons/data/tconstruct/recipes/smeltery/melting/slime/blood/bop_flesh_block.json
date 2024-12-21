@@ -1,0 +1,12 @@
+{
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"item": "biomesoplenty:flesh"
+	},
+	"result": {
+		"amount": 40500,
+		"fluid": "tconstruct:blood"
+	},
+	"temperature": 36,
+	"time": 30
+}
