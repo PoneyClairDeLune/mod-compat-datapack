@@ -6,15 +6,13 @@ let globalMap = {};
 
 const datapackId = Deno.args[1].replace(".tsv", "");
 const datapackType = Deno.args[0];
-switch (datapackType) {
-	case "items":
-	case "block": {
-		break;
-	};
-	default: {
-		console.error(`Unknown datapack type: ${datapackType}`);
-		Deno.exit(1);
-	};
+const dataReadDir = ({
+	"items": "item",
+	"block": "block"
+})[datapackType] || "";
+if (!dataReadDir) {
+	console.error(`Unknown datapack type: ${datapackType}`);
+	Deno.exit(1);
 };
 let getNamespacedPath = (datapackId, namespacedId, type) => {
 	let splitter = namespacedId.indexOf(":");
@@ -27,13 +25,10 @@ let getGeneratedData = (data) => {
 	};
 	return JSON.stringify({values});
 };
-let getReferredData = async (datapackId, namespacedId, type) => {
-	return (await Deno.readTextFile(getNamespacedPath(datapackId, namespacedId, type))).values;
-};
 
 // Parse all of the maps
 
-for await (let line of TextReader.line((await Deno.open(`./conf/item_tags/${datapackId}.tsv`)).readable)) {
+for await (let line of TextReader.line((await Deno.open(`./conf/${dataReadDir}_tags/${datapackId}.tsv`)).readable)) {
 	if (line.indexOf(":") < 0) {
 		continue;
 	};
@@ -41,27 +36,14 @@ for await (let line of TextReader.line((await Deno.open(`./conf/item_tags/${data
 	let categories = linkDetail[1].split(",");
 	for (let category of categories) {
 		let targetSet;
-		/* switch (category.charCodeAt(0)) {
-			case 35: {
-				// "#" indicates item tag referring, requires file read.
-				break;
-			};
-			case 37: {
-				// "%" indicates block tag referring, requires file read.
-				break;
-			};
-			default: { */
-				// Add the maps normally
-				if (globalMap[category]?.constructor) {
-					targetSet = globalMap[category];
-				} else {
-					console.debug(`Created category: ${category}`);
-					targetSet = new Set();
-					globalMap[category] = targetSet;
-				};
-				targetSet.add(linkDetail[0]);
-			/*};
-		};*/
+		if (globalMap[category]?.constructor) {
+			targetSet = globalMap[category];
+		} else {
+			console.debug(`Created category: ${category}`);
+			targetSet = new Set();
+			globalMap[category] = targetSet;
+		};
+		targetSet.add(linkDetail[0]);
 	};
 };
 
