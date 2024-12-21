@@ -1,2 +1,4 @@
 target	sources
-%minecraft:block/mineable/pickaxe	#c:electric_cables,#c:metal_machines
+#c:cables/electric	#techreborn:cables
+#c:machines/metallic	#techreborn:machines/basic,#techreborn:machines/advanced,#techreborn:machines/industrial
+%minecraft:mineable/pickaxe	#c:cables/electric,#c:machines/metallic

@@ -29,13 +29,20 @@ for await (let line of TextReader.line((await Deno.open(`./conf/ptr_tags/${datap
 	let category = linkDetail[0].substring(1);
 	let type = ({
 		"%": "block",
-		"#": "item"
+		"#": "items"
 	}[linkDetail[0][0]]);
 	if (!type) {
 		console.error(`Invalid tag: ${linkDetail[0]}`);
 		continue;
 	};
 	let targetSet = new Set();
+	try {
+		for (let value of await getReferredData(datapackId, category, type)) {
+			targetSet.add(value);
+		};
+	} catch (err) {
+		console.error(err);
+	};
 	/* if (globalMap[category]?.constructor) {
 		targetSet = globalMap[category];
 	} else {
@@ -66,23 +73,10 @@ for await (let line of TextReader.line((await Deno.open(`./conf/ptr_tags/${datap
 			};
 		};
 	};
-	let targetType;
-	switch (rawCategory.charCodeAt(0)) {
-		case 35: {
-			// Item
-			targetType = "items";
-			break;
-		};
-		case 37: {
-			// Block
-			targetType = "block";
-			break;
-		};
-	};
 	// Write the files
-	console.debug(`Writing "${getNamespacedPath(datapackId, category, targetType)}"...`);
+	console.debug(`Writing "${getNamespacedPath(datapackId, category, type)}"...`);
 	try {
-		await Deno.writeTextFile(getNamespacedPath(datapackId, category, targetType), getGeneratedData(targetSet));
+		await Deno.writeTextFile(getNamespacedPath(datapackId, category, type), getGeneratedData(targetSet));
 	} catch (err) {
 		console.error(err);
 	};
