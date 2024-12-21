@@ -2,19 +2,7 @@
 
 import TextReader from "https://jsr.io/@ltgc/rochelle/0.2.2/dist/textRead.mjs";
 
-let globalMap = {};
-
 const datapackId = Deno.args[0].replace(".tsv", "");
-switch (datapackType) {
-	case "items":
-	case "block": {
-		break;
-	};
-	default: {
-		console.error(`Unknown datapack type: ${datapackType}`);
-		Deno.exit(1);
-	};
-};
 let getNamespacedPath = (datapackId, namespacedId, type) => {
 	let splitter = namespacedId.indexOf(":");
 	return `./src/${datapackId}/data/${namespacedId.substring(0, splitter)}/tags/${type}/${namespacedId.substring(splitter + 1)}.json`;
@@ -38,15 +26,23 @@ for await (let line of TextReader.line((await Deno.open(`./conf/ptr_tags/${datap
 	};
 	let linkDetail = line.split("\t");
 	let pointers = linkDetail[1].split(",");
-	let category = linkDetail[0];
-	let targetSet;
-	if (globalMap[category]?.constructor) {
+	let category = linkDetail[0].substring(1);
+	let type = ({
+		"%": "block",
+		"#": "item"
+	}[linkDetail[0][0]]);
+	if (!type) {
+		console.error(`Invalid tag: ${linkDetail[0]}`);
+		continue;
+	};
+	let targetSet = new Set();
+	/* if (globalMap[category]?.constructor) {
 		targetSet = globalMap[category];
 	} else {
 		console.debug(`Created category: ${category}`);
 		targetSet = new Set();
 		globalMap[category] = targetSet;
-	};
+	}; */
 	for (let pointer of pointers) {
 		let readValuesFrom, readValues;
 		switch (pointer.charCodeAt(0)) {
@@ -70,13 +66,6 @@ for await (let line of TextReader.line((await Deno.open(`./conf/ptr_tags/${datap
 			};
 		};
 	};
-};
-
-//console.debug(globalMap);
-
-// Write all of the maps
-for (let rawCategory in globalMap) {
-	let category = rawCategory.substring(1);
 	let targetType;
 	switch (rawCategory.charCodeAt(0)) {
 		case 35: {
@@ -90,9 +79,10 @@ for (let rawCategory in globalMap) {
 			break;
 		};
 	};
+	// Write the files
 	console.debug(`Writing "${getNamespacedPath(datapackId, category, targetType)}"...`);
 	try {
-		await Deno.writeTextFile(getNamespacedPath(datapackId, category, targetType), getGeneratedData(globalMap[category]));
+		await Deno.writeTextFile(getNamespacedPath(datapackId, category, targetType), getGeneratedData(targetSet));
 	} catch (err) {
 		console.error(err);
 	};
