@@ -4,10 +4,11 @@ import TextReader from "https://jsr.io/@ltgc/rochelle/0.2.2/dist/textRead.mjs";
 
 let globalMap = {};
 
-const datapackId = Deno.args[0].replace(".tsv", "");
-let getNamespacedPath = (datapackId, namespacedId) => {
+const datapackId = Deno.args[1].replace(".tsv", "");
+const datapackType = Deno.args[0];
+let getNamespacedPath = (datapackId, namespacedId, type) => {
 	let splitter = namespacedId.indexOf(":");
-	return `./src/${datapackId}/data/${namespacedId.substring(0, splitter)}/tags/items/${namespacedId.substring(splitter + 1)}.json`;
+	return `./src/${datapackId}/data/${namespacedId.substring(0, splitter)}/tags/${type}/${namespacedId.substring(splitter + 1)}.json`;
 };
 let getGeneratedData = (data) => {
 	let values = [];
@@ -19,7 +20,7 @@ let getGeneratedData = (data) => {
 
 // Parse all of the maps
 
-for await (let line of TextReader.line((await Deno.open(`./conf/item_categories/${datapackId}.tsv`)).readable)) {
+for await (let line of TextReader.line((await Deno.open(`./conf/item_tags/${datapackId}.tsv`)).readable)) {
 	if (line.indexOf(":") < 0) {
 		continue;
 	};
@@ -42,6 +43,10 @@ for await (let line of TextReader.line((await Deno.open(`./conf/item_categories/
 
 // Write all of the maps
 for (let category in globalMap) {
-	console.debug(`Writing "${getNamespacedPath(datapackId, category)}"...`);
-	await Deno.writeTextFile(getNamespacedPath(datapackId, category), getGeneratedData(globalMap[category]));
+	console.debug(`Writing "${getNamespacedPath(datapackId, category, datapackType)}"...`);
+	try {
+		await Deno.writeTextFile(getNamespacedPath(datapackId, category, datapackType), getGeneratedData(globalMap[category]));
+	} catch (err) {
+		console.error(err);
+	};
 };
