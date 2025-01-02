@@ -1,0 +1,37 @@
+{
+	"type": "botanypots:crop",
+	"seed": {
+		"item": "cinderscapes:umbral_fungus"
+	},
+	"categories": ["umbral_nylium"],
+	"growthTicks": 1200,
+	"display": {
+		"block": "cinderscapes:umbral_fungus",
+	},
+	"drops": [{
+		"chance": 1.00,
+		"output": {
+			"item": "cinderscapes:umbral_stem"
+		}
+	}, {
+		"chance": 1.00,
+		"output": {
+			"item": "cinderscapes:umbral_fungus"
+		}
+	}, {
+		"chance": 0.25,
+		"output": {
+			"item": "cinderscapes:umbral_wart_block"
+		}
+	}, {
+		"chance": 0.20,
+		"output": {
+			"item": "cinderscapes:umbral_flesh_block"
+		}
+	}, {
+		"chance": 0.30,
+		"output": {
+			"item": "minecraft:shroomlight"
+		}
+	}]
+}

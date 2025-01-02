@@ -1,0 +1,11 @@
+{
+	"type": "botanypots:soil",
+	"input": {
+		"item": "cinderscapes:umbral_nylium"
+	},
+	"display": {
+		"block": "cinderscapes:umbral_nylium"
+	},
+	"categories": ["umbral", "nylium", "umbral_nylium", "mushroom", "netherrack", "nether"],
+	"growthmodifier": 1
+}
