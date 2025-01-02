@@ -23,6 +23,7 @@ let getGeneratedData = (data) => {
 	for (let value of data) {
 		values.push(value);
 	};
+	values.sort();
 	return JSON.stringify({values});
 };
 
