@@ -10,7 +10,7 @@ biomeswevegone:baobab_fruit	c:fruits
 biomeswevegone:blueberries	c:fruits
 biomeswevegone:blueberry_pie	c:desserts
 biomeswevegone:cooked_yucca_fruit	c:fruits
-biomeswevegone:green_apple	c:fruits
+biomeswevegone:green_apple	c:fruits,unicopia:fresh_apples
 biomeswevegone:green_apple_pie	c:desserts
 biomeswevegone:yucca_fruit	c:fruits
 cinderscapes:bramble_berries	c:fruits

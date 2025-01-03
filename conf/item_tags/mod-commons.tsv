@@ -13,6 +13,7 @@ biomesoplenty:orange_sand	c:sand
 biomesoplenty:white_sand	c:sand
 biomeswevegone:black_sand	c:sand
 biomeswevegone:blue_sand	c:sand
+biomeswevegone:blueberries	c:foods/berries,minecraft:fox_food
 biomeswevegone:cracked_red_sand	c:sand
 biomeswevegone:cracked_sand	c:sand
 biomeswevegone:pink_sand	c:sand
@@ -33,7 +34,9 @@ chipped:tar_sand	c:sand
 chipped:wet_red_sand	c:sand
 chipped:wet_sand	c:sand
 chipped:white_sand	c:sand
+cinderscapes:bramble_berries	c:foods/berries
 cinderscapes:umbral_fungus	c:fungus,netherdepthsupgrade:nether_salad_foods,createaddition:plants
+deeperdarker:bloom_berries	c:foods/berries,minecraft:fox_food
 minecraft:crimson_fungus	c:fungus
 minecraft:warped_fungus	c:fungus
 tconstruct:blood_slime_sapling	c:fungus,netherdepthsupgrade:nether_salad_foods,createaddition:plants
