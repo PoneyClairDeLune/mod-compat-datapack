@@ -7,6 +7,8 @@ ad_extendra:ceres_sand	c:sand
 ad_extendra:jupiter_sand	c:sand
 ad_extendra:pluto_sand	c:sand
 ad_extendra:saturn_sand	c:sand
+ae2:certus_quartz_cutting_knife	c:tools/knives,farmersdelight:tools/knives
+ae2:nether_quartz_cutting_knife	c:tools/knives,farmersdelight:tools/knives
 biomesoplenty:black_sand	c:sand
 biomesoplenty:mossy_black_sand	c:sand
 biomesoplenty:orange_sand	c:sand
