@@ -71,4 +71,16 @@ techreborn:titanium_storage_block	c:storage_blocks
 techreborn:tungsten_storage_block	c:storage_blocks
 techreborn:tungstensteel_storage_block	c:storage_blocks
 techreborn:yellow_garnet_storage_block	c:storage_blocks
-yungscavebiomes:ancient_sand	c:sand,minecraft:sand,minecraft:smelts_to_glass
+techreborn:lamp_incandescent	techreborn:lights
+techreborn:lamp_led	techreborn:lights
+techreborn:copper_cable	techreborn:cables
+techreborn:glassfiber_cable	techreborn:cables
+techreborn:gold_cable	techreborn:cables
+techreborn:hv_cable	techreborn:cables
+techreborn:insulated_copper_cable	techreborn:cables
+techreborn:insulated_gold_cable	techreborn:cables
+techreborn:insulated_hv_cable	techreborn:cables
+techreborn:tin_cable	techreborn:cables
+techreborn:basic_machine_frame	techreborn:machines/basic
+techreborn:advanced_machine_frame	techreborn:machines/advanced
+techreborn:industrial_machine_frame	techreborn:machines/industrial

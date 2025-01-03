@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"show_notification": true,
+	"key": {
+		"A": {
+			"tag": "minecraft:sand"
+		},
+		"B": {
+			"item": "minecraft:gunpowder"
+		}
+	},
+	"pattern": [
+		"BAB",
+		"ABA",
+		"BAB"
+	],
+	"result": {
+		"item": "minecraft:tnt",
+		"count": 1
+	}
+}
