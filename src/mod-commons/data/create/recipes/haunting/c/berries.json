@@ -1,0 +1,9 @@
+{
+	"type": "create:haunting",
+	"ingredients": [{
+		"tag": "create:haunt/glow_berries"
+	}],
+	"results": [{
+		"item": "minecraft:glow_berries"
+	}]
+}

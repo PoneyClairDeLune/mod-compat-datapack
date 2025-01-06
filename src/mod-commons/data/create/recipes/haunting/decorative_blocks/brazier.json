@@ -1,0 +1,9 @@
+{
+	"type": "create:haunting",
+	"ingredients": [{
+		"item": "decorative_blocks:brazier"
+	}],
+	"results": [{
+		"item": "decorative_blocks:soul_brazier"
+	}]
+}

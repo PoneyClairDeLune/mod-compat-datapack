@@ -1,0 +1,9 @@
+{
+	"type": "create:haunting",
+	"ingredients": [{
+		"item": "minecraft:jack_o_lantern"
+	}],
+	"results": [{
+		"item": "blockus:soul_o_lantern"
+	}]
+}

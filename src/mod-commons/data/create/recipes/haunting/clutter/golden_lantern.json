@@ -1,0 +1,9 @@
+{
+	"type": "create:haunting",
+	"ingredients": [{
+		"item": "clutter:golden_lantern"
+	}],
+	"results": [{
+		"item": "clutter:golden_soul_lantern"
+	}]
+}

@@ -18,6 +18,7 @@ biomeswevegone:blue_sand	c:sand
 biomeswevegone:blueberries	c:foods/berries,minecraft:fox_food
 biomeswevegone:cracked_red_sand	c:sand
 biomeswevegone:cracked_sand	c:sand
+biomeswevegone:green_apple	c:apples/plated_ingredient
 biomeswevegone:pink_sand	c:sand
 biomeswevegone:purple_sand	c:sand
 biomeswevegone:quicksand	c:sand
@@ -38,8 +39,11 @@ chipped:wet_sand	c:sand
 chipped:white_sand	c:sand
 cinderscapes:bramble_berries	c:foods/berries
 cinderscapes:umbral_fungus	c:fungus,netherdepthsupgrade:nether_salad_foods,createaddition:plants
+biomeswevegone:blueberries	create:haunt/glow_berries
 deeperdarker:bloom_berries	c:foods/berries,minecraft:fox_food
+minecraft:apple	c:apples/plated_ingredient
 minecraft:crimson_fungus	c:fungus
+minecraft:sweet_berries	create:haunt/glow_berries
 minecraft:warped_fungus	c:fungus
 tconstruct:blood_slime_sapling	c:fungus,netherdepthsupgrade:nether_salad_foods,createaddition:plants
 tconstruct:bloodshroom_log	minecraft:logs_that_burn
@@ -76,4 +80,7 @@ techreborn:titanium_storage_block	c:storage_blocks
 techreborn:tungsten_storage_block	c:storage_blocks
 techreborn:tungstensteel_storage_block	c:storage_blocks
 techreborn:yellow_garnet_storage_block	c:storage_blocks
+unicopia:green_apple	unicopia:apples
+unicopia:sour_apple	unicopia:apples
+unicopia:sweet_apple	unicopia:apples
 yungscavebiomes:ancient_sand	c:sand,minecraft:sand,minecraft:smelts_to_glass

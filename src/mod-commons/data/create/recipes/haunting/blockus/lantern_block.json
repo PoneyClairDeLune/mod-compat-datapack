@@ -1,0 +1,9 @@
+{
+	"type": "create:haunting",
+	"ingredients": [{
+		"item": "blockus:lantern_block"
+	}],
+	"results": [{
+		"item": "blockus:soul_lantern_block"
+	}]
+}

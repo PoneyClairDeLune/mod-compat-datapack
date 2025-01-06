@@ -1,0 +1,9 @@
+{
+	"type": "create:haunting",
+	"ingredients": [{
+		"item": "minecraft:netherite_hoe"
+	}],
+	"results": [{
+		"item": "mca:scythe"
+	}]
+}
