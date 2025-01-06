@@ -1,0 +1,9 @@
+{
+	"type": "create:haunting",
+	"ingredients": [{
+		"item": "minecraft:cod"
+	}],
+	"results": [{
+		"item": "unicopia:rotten_cod"
+	}]
+}

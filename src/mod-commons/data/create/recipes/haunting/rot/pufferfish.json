@@ -1,0 +1,9 @@
+{
+	"type": "create:haunting",
+	"ingredients": [{
+		"item": "minecraft:pufferfish"
+	}],
+	"results": [{
+		"item": "unicopia:rotten_pufferfish"
+	}]
+}

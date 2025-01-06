@@ -1,0 +1,9 @@
+{
+	"type": "create:haunting",
+	"ingredients": [{
+		"item": "minecraft:tropical_fish"
+	}],
+	"results": [{
+		"item": "unicopia:rotten_tropical_fish"
+	}]
+}
