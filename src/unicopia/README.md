@@ -1,0 +1,3 @@
+This datapack adds better integrations with certain other mods for Unicopia, mainly adding extra dietary information with a few other fronts. If further Botany Pots recipes are needed, please go check the [Botany Pots Extras](https://modrinth.com/datapack/botany-pots-extras-le/version) datapack.
+
+**Warning**: Due to tag differences in different modding ecosystems, this datapack is only ever intended to be used with Fabric and its derivatives. **Forge is not supported.**
