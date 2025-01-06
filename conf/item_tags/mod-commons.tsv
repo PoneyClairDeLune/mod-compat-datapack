@@ -48,6 +48,8 @@ minecraft:warped_fungus	c:fungus
 tconstruct:blood_slime_sapling	c:fungus,netherdepthsupgrade:nether_salad_foods,createaddition:plants
 tconstruct:bloodshroom_log	minecraft:logs_that_burn
 tconstruct:greenheart_log	minecraft:logs_that_burn
+tconstruct:scorched_brick	supplementaries:throwable_bricks
+tconstruct:seared_brick	supplementaries:throwable_bricks
 tconstruct:skyroot_log	minecraft:logs_that_burn
 tconstruct:stripped_bloodshroom_log	minecraft:logs_that_burn
 tconstruct:stripped_greenheart_log	minecraft:logs_that_burn
