@@ -15,7 +15,7 @@ biomesoplenty:orange_sand	c:sand
 biomesoplenty:white_sand	c:sand
 biomeswevegone:black_sand	c:sand
 biomeswevegone:blue_sand	c:sand
-biomeswevegone:blueberries	c:foods/berries,minecraft:fox_food
+biomeswevegone:blueberries	c:foods/berries,minecraft:fox_food,create:haunt/glow_berries
 biomeswevegone:cracked_red_sand	c:sand
 biomeswevegone:cracked_sand	c:sand
 biomeswevegone:green_apple	c:apples/plated_ingredient
@@ -40,7 +40,6 @@ chipped:white_sand	c:sand
 cinderscapes:bramble_berries	c:foods/berries
 cinderscapes:umbral_fungus	c:fungus,netherdepthsupgrade:nether_salad_foods,createaddition:plants
 convenientdecor:unbundled_hay_block	c:bales,c:bales/wheat,c:bales/grain
-biomeswevegone:blueberries	create:haunt/glow_berries
 deeperdarker:bloom_berries	c:foods/berries,minecraft:fox_food
 farmersdelight:rice_bale	c:bales,c:bales/rice,c:bales/grain
 farmersdelight:straw_bale	c:bales,c:bales/straw
