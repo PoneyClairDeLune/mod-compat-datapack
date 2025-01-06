@@ -7,5 +7,5 @@
 		"block": "biomeswevegone:red_quicksand"
 	},
 	"categories": ["sand"],
-	"growthmodifier": 1
+	"growthModifier": 1
 }

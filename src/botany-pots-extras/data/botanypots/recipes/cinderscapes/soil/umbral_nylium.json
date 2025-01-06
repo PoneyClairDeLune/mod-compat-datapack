@@ -7,5 +7,5 @@
 		"block": "cinderscapes:umbral_nylium"
 	},
 	"categories": ["umbral", "nylium", "umbral_nylium", "mushroom", "netherrack", "nether"],
-	"growthmodifier": 1
+	"growthModifier": 1
 }

@@ -7,5 +7,5 @@
 		"block": "biomeswevegone:sandy_dirt_path"
 	},
 	"categories": ["sand", "dirt"],
-	"growthmodifier": 0.5
+	"growthModifier": 0.5
 }

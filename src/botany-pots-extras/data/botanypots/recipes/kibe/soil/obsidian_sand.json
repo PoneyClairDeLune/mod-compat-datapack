@@ -7,5 +7,5 @@
 		"block": "kibe:obsidian_sand"
 	},
 	"categories": ["sand", "glass", "obsidian"],
-	"growthmodifier": 1.2
+	"growthModifier": 1.2
 }

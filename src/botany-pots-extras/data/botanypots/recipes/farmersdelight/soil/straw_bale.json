@@ -1,0 +1,11 @@
+{
+	"type": "botanypots:soil",
+	"input": {
+		"item": "farmersdelight:straw_bale"
+	},
+	"display": {
+		"block": "farmersdelight:straw_bale"
+	},
+	"categories": ["mulch"],
+	"growthModifier": 1.05
+}

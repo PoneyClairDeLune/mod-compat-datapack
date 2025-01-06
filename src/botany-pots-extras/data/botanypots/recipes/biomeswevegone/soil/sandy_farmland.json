@@ -7,5 +7,5 @@
 		"block": "biomeswevegone:sandy_farmland"
 	},
 	"categories": ["sand", "dirt"],
-	"growthmodifier": 1.05
+	"growthModifier": 1.05
 }

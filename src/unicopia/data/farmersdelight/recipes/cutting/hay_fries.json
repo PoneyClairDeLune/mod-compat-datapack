@@ -1,0 +1,13 @@
+{
+	"type": "farmersdelight:cutting",
+	"ingredients": [{
+		"tag": "c:bales/wheat"
+	}],
+	"result": [{
+		"count": 9,
+		"item": "unicopia:hay_fries"
+	}],
+	"tool": {
+		"tag": "minecraft:axes"
+	}
+}

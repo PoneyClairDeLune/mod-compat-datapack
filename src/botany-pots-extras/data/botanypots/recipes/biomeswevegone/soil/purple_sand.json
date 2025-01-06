@@ -7,5 +7,5 @@
 		"block": "biomeswevegone:purple_sand"
 	},
 	"categories": ["sand"],
-	"growthmodifier": 1
+	"growthModifier": 1
 }

@@ -1,0 +1,11 @@
+{
+	"type": "botanypots:soil",
+	"input": {
+		"item": "farmersdelight:rice_bale"
+	},
+	"display": {
+		"block": "farmersdelight:rice_bale"
+	},
+	"categories": ["mulch"],
+	"growthModifier": 1.05
+}

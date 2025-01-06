@@ -7,5 +7,5 @@
 		"block": "biomeswevegone:sandy_dirt"
 	},
 	"categories": ["sand", "dirt"],
-	"growthmodifier": 1
+	"growthModifier": 1
 }
