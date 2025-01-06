@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"show_notification": true,
+	"key": {
+		"B": {
+			"tag": "c:bales"
+		},
+		"A": {
+			"item": "minecraft:redstone"
+		}
+	},
+	"pattern": [
+		" A ",
+		"ABA",
+		" A "
+	],
+	"result": {
+		"item": "minecraft:target",
+		"count": 1
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"show_notification": true,
+	"ingredients": [{
+		"tag": "c:apples/plated_ingredient"
+	}, {
+		"item": "minecraft:melon_slice"
+	}, {
+		"item": "minecraft:melon_slice"
+	}, {
+		"tag": "minecraft:fox_food"
+	}, {
+		"tag": "minecraft:fox_food"
+	}, {
+		"tag": "farmersdelight:pumpkin_slice"
+	}, {
+		"item": "minecraft:bowl"
+	}],
+	"result": {
+		"item": "farmersdelight:fruit_salad",
+		"count": 1
+	}
+}

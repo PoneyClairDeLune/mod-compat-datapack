@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"show_notification": true,
+	"ingredients": [{
+		"tag": "c:bales/grain"
+	}, {
+		"tag": "c:apples/plated_ingredient"
+	}, {
+		"tag": "c:apples/plated_ingredient"
+	}, {
+		"item": "minecraft:golden_carrot"
+	}],
+	"result": {
+		"item": "farmersdelight:horse_feed",
+		"count": 1
+	}
+}

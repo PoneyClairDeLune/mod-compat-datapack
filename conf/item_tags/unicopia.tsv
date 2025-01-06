@@ -22,6 +22,7 @@ clutter:raw_chorus_echofin	c:foods,c:raw_meat,c:raw_fish
 clutter:raw_levitating_echofin	c:foods,c:raw_meat,c:raw_fish
 clutter:raw_venison	c:foods,c:raw_meat
 clutter:raw_venison_ribs	c:foods,c:raw_meat
+convenientdecor:unbundled_hay_block	unicopia:forage/filling
 create:bar_of_chocolate	c:foods,c:desserts
 create:builders_tea	c:drinks
 create:chocolate_glazed_berries	c:foods,c:fruits
@@ -166,6 +167,7 @@ spawn:roasted_sunflower_seeds	c:foods,c:grains
 spawn:tuna_chunk	c:foods,c:raw_fish,c:raw_meat
 spawn:tuna_sandwich	c:foods,c:cooked_fish,c:cooked_meat
 supplementaries:candy	c:foods,c:candy
+supplementaries:flax_block	unicopia:forage/filling
 tconstruct:bacon	c:foods,c:cooked_meat
 tconstruct:jeweled_apple	c:foods,c:fruits
 white_rabbit:pishsalver	c:drinks

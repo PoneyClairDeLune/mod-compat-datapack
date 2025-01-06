@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"show_notification": true,
+	"ingredients": [{
+		"tag": "c:bales/wheat"
+	}, {
+		"tag": "c:bales/flax"
+	}],
+	"result": {
+		"item": "supplementaries:fodder",
+		"count": 2
+	}
+}

@@ -39,12 +39,17 @@ chipped:wet_sand	c:sand
 chipped:white_sand	c:sand
 cinderscapes:bramble_berries	c:foods/berries
 cinderscapes:umbral_fungus	c:fungus,netherdepthsupgrade:nether_salad_foods,createaddition:plants
+convenientdecor:unbundled_hay_block	c:bales,c:bales/wheat,c:bales/grain
 biomeswevegone:blueberries	create:haunt/glow_berries
 deeperdarker:bloom_berries	c:foods/berries,minecraft:fox_food
+farmersdelight:rice_bale	c:bales,c:bales/rice,c:bales/grain
+farmersdelight:straw_bale	c:bales,c:bales/straw
 minecraft:apple	c:apples/plated_ingredient
 minecraft:crimson_fungus	c:fungus
+minecraft:hay_block	c:bales,c:bales/wheat,c:bales/grain
 minecraft:sweet_berries	create:haunt/glow_berries
 minecraft:warped_fungus	c:fungus
+supplementaries:flax_block	c:bales,c:bales/flax
 tconstruct:blood_slime_sapling	c:fungus,netherdepthsupgrade:nether_salad_foods,createaddition:plants
 tconstruct:bloodshroom_log	minecraft:logs_that_burn
 tconstruct:greenheart_log	minecraft:logs_that_burn
