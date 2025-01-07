@@ -201,6 +201,14 @@ supplementaries:candy	c:foods,c:candy
 supplementaries:flax_block	unicopia:forage/filling
 tconstruct:bacon	c:foods,c:cooked_meat
 tconstruct:jeweled_apple	c:foods,c:fruits,c:foods/plated,c:foods/diamond
+twilightforest:cooked_meef	c:foods,c:raw_meat
+twilightforest:cooked_venison	c:foods,c:cooked_meat
+twilightforest:experiment_115	c:foods,unicopia:baked_goods
+twilightforest:hydra_chop	c:foods,c:cooked_meat
+twilightforest:meef_stroganoff	c:foods,c:cooked_meat
+twilightforest:raw_meef	c:foods,c:raw_meat
+twilightforest:raw_venison	c:foods,c:raw_meat
+twilightforest:torchberries	c:foods,c:fruits
 white_rabbit:pishsalver	c:drinks
 white_rabbit:upelkuchen	c:foods,unicopia:baked_goods
 wilderwild:baobab_nut	c:foods
