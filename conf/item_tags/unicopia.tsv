@@ -116,6 +116,7 @@ kibe:cursed_kibe	c:foods,c:cooked_meat
 kibe:diamond_kibe	c:foods,c:cooked_meat,c:foods/plated,c:foods/diamond
 kibe:golden_kibe	c:foods,c:cooked_meat,c:foods/plated,c:foods/golden
 kibe:kibe	c:foods,c:cooked_meat
+magic_vibe_decorations:pumpkinmuffin	c:foods,unicopia:baked_goods
 magic_vibe_decorations:pumpkin_soup	c:foods,dehydration:hydrating_stew
 midashunger:baked_golden_potato	c:foods,c:foods/plated,c:foods/golden
 midashunger:cooked_golden_beef	c:foods,c:foods/plated,c:foods/golden,c:cooked_meat
