@@ -183,7 +183,14 @@ netherdepthsupgrade:magmacubefish_slice	c:foods,c:raw_meat,c:raw_fish
 netherdepthsupgrade:obsidianfish_slice	c:foods,c:raw_meat,c:raw_fish
 netherdepthsupgrade:searing_cod_slice	c:foods,c:raw_meat,c:raw_fish
 netherdepthsupgrade:soulsucker_slice	c:foods,c:raw_meat,c:raw_fish
+paradise_lost:amadrys_bread	c:foods,unicopia:baked_goods
+paradise_lost:amadrys_bread_glazed	c:foods,unicopia:baked_goods
+paradise_lost:amadrys_bushel	c:foods
 paradise_lost:amadrys_noodles	c:foods,dehydration:hydrating_stew
+paradise_lost:blackcurrant	c:foods,c:fruits
+paradise_lost:moa_meat	c:foods,c:raw_meat
+paradise_lost:moa_meat_cooked	c:foods,c:cooked_meat
+paradise_lost:orange	c:foods,c:fruits
 spawn:angler_fish	c:foods,c:raw_fish,c:raw_meat
 spawn:cooked_tuna_chunk	c:foods,c:cooked_fish,c:cooked_meat
 spawn:escargot	c:foods,c:cooked_insect
