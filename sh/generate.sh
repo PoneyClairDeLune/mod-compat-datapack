@@ -3,7 +3,7 @@ echo "Removing previously-generated tags..."
 tree -ifld | grep -E "src/.*/data/.*" | while IFS= read -r file; do
 	rmdir "${file}" 2>/dev/null
 done
-tree -ifl | grep -E "src/.*/data/.*/tags/(items|block)/" | grep -E "\.json$" | while IFS= read -r file; do
+tree -ifl | grep -E "src/.*/data/.*/tags/(items|blocks)/" | grep -E "\.json$" | while IFS= read -r file; do
 	rm -v "${file}"
 done
 if [ -e conf/item_tags ]; then

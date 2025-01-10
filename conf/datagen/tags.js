@@ -8,7 +8,7 @@ const datapackId = Deno.args[1].replace(".tsv", "");
 const datapackType = Deno.args[0];
 const dataReadDir = ({
 	"items": "item",
-	"block": "block"
+	"blocks": "block"
 })[datapackType] || "";
 if (!dataReadDir) {
 	console.error(`Unknown datapack type: ${datapackType}`);
