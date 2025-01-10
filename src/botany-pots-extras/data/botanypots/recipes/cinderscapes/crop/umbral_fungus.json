@@ -6,7 +6,7 @@
 	"categories": ["umbral_nylium"],
 	"growthTicks": 1200,
 	"display": {
-		"block": "cinderscapes:umbral_fungus",
+		"block": "cinderscapes:umbral_fungus"
 	},
 	"drops": [{
 		"chance": 1.00,

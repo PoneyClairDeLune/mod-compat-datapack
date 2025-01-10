@@ -15,7 +15,7 @@ fi
 if [ -e conf/block_tags ]; then
 	ls -1 conf/block_tags | grep -E "\.tsv$" | while IFS= read -r file; do
 		echo "Generating block tags for \"${file}\"..."
-		deno run --allow-read --allow-write conf/datagen/tags.js block ${file}
+		deno run --allow-read --allow-write conf/datagen/tags.js blocks ${file}
 	done
 fi
 if [ -e conf/ptr_tags ]; then
