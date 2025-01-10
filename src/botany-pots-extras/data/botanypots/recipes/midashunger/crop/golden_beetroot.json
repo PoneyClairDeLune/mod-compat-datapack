@@ -1,0 +1,45 @@
+{
+	"type": "botanypots:crop",
+	"seed": {
+		"item": "midashunger:golden_beetroot_seeds"
+	},
+	"categories": ["dirt"],
+	"growthTicks": 1200,
+	"display": {
+		"type": "botanypots:transitional",
+		"phases": [{
+			"block": "midashunger:golden_beetroots",
+			"properties": {
+				"age": 0
+			}
+		}, {
+			"block": "midashunger:golden_beetroots",
+			"properties": {
+				"age": 1
+			}
+		}, {
+			"block": "midashunger:golden_beetroots",
+			"properties": {
+				"age": 2
+			}
+		}]
+	},
+	"drops": [{
+		"chance": 1.00,
+		"output": {
+			"item": "midashunger:golden_beetroot"
+		}
+	}, {
+		"chance": 0.15,
+		"output": {
+			"item": "midashunger:golden_beetroot"
+		},
+		"minRoll": 1,
+		"maxRoll": 2
+	}, {
+		"chance": 0.05,
+		"output": {
+			"item": "midashunger:golden_beetroot_seeds"
+		}
+	}]
+}

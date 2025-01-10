@@ -1,0 +1,11 @@
+{
+	"type": "botanypots:soil",
+	"input": {
+		"item": "biomeswevegone:lush_dirt_path"
+	},
+	"display": {
+		"block": "biomeswevegone:lush_dirt_path"
+	},
+	"categories": ["dirt"],
+	"growthModifier": 0.5
+}
