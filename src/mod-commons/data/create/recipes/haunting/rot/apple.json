@@ -1,9 +1,0 @@
-{
-	"type": "create:haunting",
-	"ingredients": [{
-		"tag": "c:apples/plated_ingredient"
-	}],
-	"results": [{
-		"item": "minecraft:chorus_fruit"
-	}]
-}
